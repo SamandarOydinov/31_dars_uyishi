@@ -7,7 +7,7 @@ interface Student {
   name: string;
 }
 
-export default function StudentsPage() {
+const StudentsPage = () => {
   const [students, setStudents] = useState<Student[]>([]);
   const [name, setName] = useState('');
   const [editingId, setEditingId] = useState<number | null>(null);
@@ -136,3 +136,4 @@ export default function StudentsPage() {
     </TableWrapper>
   );
 }
+export default StudentsPage;
