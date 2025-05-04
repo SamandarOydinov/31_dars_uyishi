@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { TableWrapper } from './index.style';
+import { TableWrapper } from '../../components/styles/index.style'; // Path to the new location
+
 
 interface Student {
   id: number;
