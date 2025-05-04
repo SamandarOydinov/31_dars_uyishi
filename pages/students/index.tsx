@@ -1,6 +1,5 @@
-'use client';
 import { useEffect, useState } from 'react';
-import { TableWrapper } from './index.style';
+import { TableWrapper } from './index.style'; // Import style faylini
 
 interface Student {
   id: number;
@@ -67,7 +66,7 @@ const StudentsPage = () => {
   return (
     <TableWrapper>
       <div>
-        <h2 className='title'>Students</h2>
+        <h2 className="title">Students</h2>
         <div className="mb-4 flex space-x-2">
           <input
             value={name}
@@ -135,5 +134,6 @@ const StudentsPage = () => {
       </div>
     </TableWrapper>
   );
-}
+};
+
 export default StudentsPage;
