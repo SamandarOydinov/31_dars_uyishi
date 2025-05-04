@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": "3232",
+      "name": "adflbjo"
+    },
+    {
+      "id": "efbe",
+      "name": "lzkdjfnbkljqbn"
+    }
+  ],
+  "classes": [
+    {
+      "id": "1",
+      "name": "Urushqoqlar",
+      "studentCount": 1,
+      "teacherId": 1
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "firstName": "Lola",
+      "lastName": "Ahmedova",
+      "classes": [
+        1
+      ],
+      "birthDate": "11-11-1989"
+    }
+  ],
+  "school": {
+    "name": "144-sonli Umumta'lim maktabi",
+    "location": "Muqiymiy ko'ch. 100 uy",
+    "overallStudentCount": 1,
+    "overallStaffCount": 1,
+    "overallClassCount": 1,
+    "about": "Yaxshi maktab!",
+    "phoneNumber": "+9989565555551"
+  }
+}
