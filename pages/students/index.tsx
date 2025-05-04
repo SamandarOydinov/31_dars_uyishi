@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { TableWrapper } from './index.style'; // Import style faylini
+import { TableWrapper } from './index.style';
 
 interface Student {
   id: number;
